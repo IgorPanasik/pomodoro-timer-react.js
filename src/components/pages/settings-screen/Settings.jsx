@@ -8,7 +8,7 @@ function Settings() {
   const settingsInfo = useContext(SettingsContext);
 
   return (
-    <div style={{ textAlign: "left" }}>
+    <div style={{ textAlign: "center" }}>
       <label>
         Work: {String(settingsInfo.workMinutes).padStart(2, "0")}:00
       </label>
